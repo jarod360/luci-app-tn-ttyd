@@ -60,7 +60,7 @@ msgid ""
 "button above and approve the certificate manually. After approving the "
 "certificate you need to reload this page."
 msgstr "如果未显示终端，并且您使用的是自签名SSL证书，则您可能需要点击上方的相应按钮在单独"
-"的浏览器窗口中打开终端，然后手动批准该证书。批准证书后，您需要重新加载此页面"
+"的浏览器窗口中打开终端，然后手动批准该证书。批准证书后，您需要重新加载此页面！"
 #: luasrc/model/cbi/ttyd/setup.lua:39
 msgid "Interface"
 msgstr "接口"
