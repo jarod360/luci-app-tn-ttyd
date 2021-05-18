@@ -1,0 +1,294 @@
+7 lines (255 sloc)  11.2 KB
+  
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-05 18:26+0000\n"
+"Last-Translator: SunSpring <yearnsun@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"openwrt/luciapplicationsttyd/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.3-dev\n"
+
+#: luasrc/model/cbi/ttyd/setup.lua:19
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: luasrc/model/cbi/ttyd/setup.lua:21
+msgid "Basic Authentication"
+msgstr "基本身份验证"
+
+#: luasrc/model/cbi/ttyd/setup.lua:18
+msgid "Basic Settings"
+msgstr "基础设置"
+
+#: luasrc/view/ttyd/terminal.htm:66
+msgid "Can't load non-SSL terminal into page loaded over HTTPS"
+msgstr "无法将非SSL终端通过HTTPS的页面加载"
+
+#: luasrc/model/cbi/ttyd/setup.lua:63
+msgid "Check origin"
+msgstr "检查来源"
+
+#: luasrc/model/cbi/ttyd/setup.lua:260
+msgid "Common name (/CN)"
+msgstr "通用（/CN）"
+
+#: luasrc/model/cbi/ttyd/setup.lua:220
+msgid "Country name (/C)"
+msgstr "国家 (/C)"
+
+#: luasrc/model/cbi/ttyd/setup.lua:175
+msgid "Credentials for basic authentication"
+msgstr "用于基本身份验证的凭据"
+
+#: luasrc/model/cbi/ttyd/setup.lua:54
+msgid "Do not allow clients to write to the TTY"
+msgstr "不允许客户端写入 TTYD"
+
+#: luasrc/model/cbi/ttyd/setup.lua:64
+msgid "Do not allow websocket connection from different origin"
+msgstr "不允许不同来源的 websocket 连接"
+
+#: luasrc/model/cbi/ttyd/setup.lua:111
+msgid "Enable SSL"
+msgstr "启用 SSL"
+
+#: luasrc/model/cbi/ttyd/setup.lua:134
+msgid "HTTPS certificate (PEM&nbsp;format)"
+msgstr "HTTPS 证书 (PEM格式)"
+
+#: luasrc/model/cbi/ttyd/setup.lua:143
+msgid "HTTPS private key (PEM&nbsp;format)"
+msgstr "HTTPS 密钥 (PEM格式)"
+
+#: luasrc/view/ttyd/terminal.htm:36
+msgid ""
+"If terminal is not displayed and you use self-signed SSL certificate may you "
+"need to open terminal in a separate browser window using the appropriate "
+"button above and approve the certificate manually. After approving the "
+"certificate you need to reload this page."
+msgstr "如果未显示终端，并且您使用的是自签名SSL证书，则您可能需要点击上方的相应按钮在单独"
+"的浏览器窗口中打开终端，然后手动批准该证书。批准证书后，您需要重新加载此页面！"
+#: luasrc/model/cbi/ttyd/setup.lua:39
+msgid "Interface"
+msgstr "接口"
+
+#: luasrc/model/cbi/ttyd/setup.lua:97
+msgid "LLL_CLIENT"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:94
+msgid "LLL_DEBUG"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:90
+msgid "LLL_ERR"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:96
+msgid "LLL_EXT"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:95
+msgid "LLL_HEADER"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:93
+msgid "LLL_INFO"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:98
+msgid "LLL_LATENCY"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:92
+msgid "LLL_NOTICE"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:100
+msgid "LLL_THREAD"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:99
+msgid "LLL_USER"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:91
+msgid "LLL_WARN"
+msgstr ""
+
+#: luasrc/model/cbi/ttyd/setup.lua:212
+msgid "Length of the private key in bits"
+msgstr "密钥的长度（位）"
+
+#: luasrc/model/cbi/ttyd/setup.lua:40
+msgid "Listen only on the given interface or, if unspecified, on all"
+msgstr "仅监听指定的接口，未指定则监听全部"
+
+#: luasrc/model/cbi/ttyd/setup.lua:236
+msgid "Locality name (/L)"
+msgstr "地区（/ L）"
+
+#: luasrc/model/cbi/ttyd/setup.lua:73
+msgid "Maximum clients"
+msgstr "最大客户端数量"
+
+#: luasrc/model/cbi/ttyd/setup.lua:74
+msgid "Maximum clients to support (default: 0, no limit)"
+msgstr "最大支持的客户端数量 (默认: 0, 无限制)"
+
+#: luasrc/model/cbi/ttyd/setup.lua:82
+msgid "Message types for logging"
+msgstr "记录的日志类型"
+
+#: luasrc/model/cbi/ttyd/setup.lua:118
+msgid "Must have certificate when using SSL"
+msgstr "使用SSL时必须具有证书"
+
+#: luasrc/model/cbi/ttyd/setup.lua:124
+msgid "Must have key when using SSL"
+msgstr "使用SSL时必须具有密钥"
+
+#: luasrc/model/cbi/ttyd/setup.lua:204
+msgid "Number of days a generated certificate is valid"
+msgstr "适用于证书的有效天数"
+
+#: luasrc/view/ttyd/terminal.htm:31
+msgid "Open terminal in a separate window"
+msgstr "在单独的窗口中打开终端"
+
+#: luasrc/model/cbi/ttyd/setup.lua:244
+msgid "Organization name (/O)"
+msgstr "机构（/ O）"
+
+#: luasrc/model/cbi/ttyd/setup.lua:252
+msgid "Organizational unit name (/OU)"
+msgstr "部门(/OU)"
+
+#: luasrc/model/cbi/ttyd/setup.lua:187
+msgid "Password"
+msgstr "密码"
+
+#: luasrc/model/cbi/ttyd/setup.lua:188
+msgid "Password for basic authentication"
+msgstr "用于基本身份验证的密码"
+
+#: luasrc/model/cbi/ttyd/setup.lua:28
+msgid "Port"
+msgstr "端口"
+
+#: luasrc/model/cbi/ttyd/setup.lua:29
+msgid "Port to listen (default: 7681)"
+msgstr ""要监听的端口 (默认: 7681)"
+
+#: luasrc/model/cbi/ttyd/setup.lua:53
+msgid "Read only"
+msgstr "只读"
+
+#: luasrc/model/cbi/ttyd/setup.lua:150
+msgid "Remove certificate and key"
+msgstr "删除证书和密钥"
+
+#: luasrc/model/cbi/ttyd/setup.lua:20
+msgid "SSL Settings"
+msgstr "SSL设置"
+
+#: luasrc/model/cbi/ttyd/setup.lua:135
+msgid "SSL certificate file path"
+msgstr "SSL证书文件路径"
+
+#: luasrc/model/cbi/ttyd/setup.lua:144
+msgid "SSL key file path"
+msgstr "SSL密钥文件路径"
+
+#: luasrc/model/cbi/ttyd/setup.lua:83
+msgid ""
+"Select websockets library message types for logging (default: LLL_ERR and "
+"LLL_WARN)"
+msgstr "设置日志级别 (默认:LLL_ERR 和 LLL_WARN)
+
+#: luasrc/model/cbi/ttyd/setup.lua:197
+msgid "Self-signed SSL certificate parameters"
+msgstr "自签名SSL证书参数"
+
+#: luasrc/controller/ttyd.lua:20
+msgid "Setup"
+msgstr "设置"
+
+#: luasrc/view/ttyd/terminal.htm:51
+msgid "Start TTYd server"
+msgstr "开启TTYD服务"
+
+#: luasrc/model/cbi/ttyd/setup.lua:228
+msgid "State or province name (/ST)"
+msgstr "省或州 (/ST)"
+
+#: luasrc/view/ttyd/terminal.htm:49
+msgid "TTYd server is not running"
+msgstr "TTYD服务没有运行"
+
+#: luasrc/model/cbi/ttyd/setup.lua:12
+msgid "TTYd server settings"
+msgstr "TTYD服务器设置"
+
+#: luasrc/model/cbi/ttyd/setup.lua:151
+msgid ""
+"TTYd will generate a new self-signed certificate using the configuration "
+"shown below"
+msgstr "TTYd将使用以下所示的配置生成一个新的自签名证书"
+
+#: luasrc/controller/ttyd.lua:18 luasrc/controller/ttyd.lua:19
+#: luasrc/view/ttyd/terminal.htm:23
+msgid "Terminal"
+msgstr "TTYD终端"
+
+#: luasrc/model/cbi/ttyd/setup.lua:10
+msgid "Terminal settings"
+msgstr "终端设定"
+
+#: luasrc/model/cbi/ttyd/setup.lua:237
+msgid "The city where your company is legally located"
+msgstr "公司所在的城市"
+
+#: luasrc/model/cbi/ttyd/setup.lua:261
+msgid "The fully-qualified domain name"
+msgstr "完全合格的域名"
+
+#: luasrc/model/cbi/ttyd/setup.lua:253
+msgid "The name of your department within the organization"
+msgstr "所在部门的名称"
+
+#: luasrc/model/cbi/ttyd/setup.lua:229
+msgid "The state/province where your company is legally located"
+msgstr "公司所在的省/州"
+
+#: luasrc/model/cbi/ttyd/setup.lua:221
+msgid "The two-letter country code where your company is legally located"
+msgstr "公司所在国家/地区代码的两个字母缩写"
+
+#: luasrc/model/cbi/ttyd/setup.lua:174
+msgid "Use basic authentication"
+msgstr "使用基本身份验证"
+
+#: luasrc/model/cbi/ttyd/setup.lua:180
+msgid "Username"
+msgstr "用户名"
+
+#: luasrc/model/cbi/ttyd/setup.lua:181
+msgid "Username for basic authentication"
+msgstr "基本身份验证的用户名"
+
+#: luasrc/view/ttyd/terminal.htm:67
+msgid ""
+"You can enable SSL in terminal settings page or use HTTP connection instead "
+"of HTTPS. Also you can open terminal in a separate window using the "
+"appropriate button below."
+msgstr "您可以在“终端设定”页中启用SSL或改用HTTP连接"
+"您也可以使用下面按钮“在单独的窗口中打开终端”"
+
+#: luasrc/model/cbi/ttyd/setup.lua:245
+msgid "Your company's legally registered name"
+msgstr "公司的合法注册名称"
