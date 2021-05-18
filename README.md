@@ -15,4 +15,4 @@ in [meta-tanowrt](https://github.com/tano-systems/meta-tanowrt.git) OpenEmbedded
 
 ## Supported languages
 - English
-- Russian
+- Chinese
