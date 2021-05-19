@@ -26,7 +26,7 @@ msgstr "基础设置"
 
 #: luasrc/view/ttyd/terminal.htm:66
 msgid "Can't load non-SSL terminal into page loaded over HTTPS"
-msgstr "无法将非SSL终端通过HTTPS的页面加载"
+msgstr "无法将非SSL终端通过HTTPS的页面加载！"
 
 #: luasrc/model/cbi/ttyd/setup.lua:63
 msgid "Check origin"
@@ -46,7 +46,7 @@ msgstr "用于基本身份验证的凭据"
 
 #: luasrc/model/cbi/ttyd/setup.lua:54
 msgid "Do not allow clients to write to the TTY"
-msgstr "不允许客户端写入 TTYD"
+msgstr "不允许客户端写入 TTY"
 
 #: luasrc/model/cbi/ttyd/setup.lua:64
 msgid "Do not allow websocket connection from different origin"
@@ -122,7 +122,7 @@ msgstr ""
 
 #: luasrc/model/cbi/ttyd/setup.lua:212
 msgid "Length of the private key in bits"
-msgstr "密钥的长度（位）"
+msgstr "密钥长度（位）"
 
 #: luasrc/model/cbi/ttyd/setup.lua:40
 msgid "Listen only on the given interface or, if unspecified, on all"
@@ -220,7 +220,7 @@ msgstr "设置"
 
 #: luasrc/view/ttyd/terminal.htm:51
 msgid "Start TTYd server"
-msgstr "开启TTYD服务"
+msgstr "开启 TTYD 服务"
 
 #: luasrc/model/cbi/ttyd/setup.lua:228
 msgid "State or province name (/ST)"
@@ -238,7 +238,7 @@ msgstr "TTYD服务器设置"
 msgid ""
 "TTYd will generate a new self-signed certificate using the configuration "
 "shown below"
-msgstr "TTYd将使用以下所示的配置生成一个新的自签名证书"
+msgstr "TTYD将使用以下所示的配置生成一个新的自签名证书"
 
 #: luasrc/controller/ttyd.lua:18 luasrc/controller/ttyd.lua:19
 #: luasrc/view/ttyd/terminal.htm:23
