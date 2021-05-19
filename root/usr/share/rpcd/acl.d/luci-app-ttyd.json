@@ -1,6 +1,6 @@
 {
 	"luci-app-ttyd": {
-		"description": "Grant UCI access for luci-app-tn-ttyd",
+		"description": "Grant UCI access for luci-app-ttyd",
 		"read": {
 			"uci": [ "ttyd" ]
 		},
