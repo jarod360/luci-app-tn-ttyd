@@ -291,4 +291,4 @@ msgstr "您可以在“终端设定”页中启用SSL或改用HTTP连接"
 
 #: luasrc/model/cbi/ttyd/setup.lua:245
 msgid "Your company's legally registered name"
-msgstr "公司的合法注册名称"
+msgstr "公司的注册名称"
