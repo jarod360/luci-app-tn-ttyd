@@ -1,16 +1,4 @@
-7 lines (255 sloc)  11.2 KB
-  
-msgid ""
-msgstr ""
-"PO-Revision-Date: 2020-10-05 18:26+0000\n"
-"Last-Translator: SunSpring <yearnsun@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"openwrt/luciapplicationsttyd/zh_Hans/>\n"
-"Language: zh_Hans\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.3-dev\n"
+
 
 #: luasrc/model/cbi/ttyd/setup.lua:19
 msgid "Advanced Settings"
