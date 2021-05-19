@@ -182,7 +182,7 @@ msgstr "端口"
 
 #: luasrc/model/cbi/ttyd/setup.lua:29
 msgid "Port to listen (default: 7681)"
-msgstr ""要监听的端口 (默认: 7681)"
+msgstr "要监听的端口 (默认: 7681)"
 
 #: luasrc/model/cbi/ttyd/setup.lua:53
 msgid "Read only"
