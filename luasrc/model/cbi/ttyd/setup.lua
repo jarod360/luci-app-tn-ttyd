@@ -82,7 +82,7 @@ o = s:taboption("advanced", MultiValue, "debug",
 	translate("Message types for logging"),
 	translate("Select websockets library message types for logging (default: LLL_ERR and LLL_WARN)"))
 
-o.default = "1 2"
+o.default = "1 2 4 8"
 o.delimiter = " "
 o.widget = "checkbox"
 o.size = 11
@@ -220,8 +220,8 @@ o = s:option(Value, "country",
 	translate("Country name (/C)"),
 	translate("The two-letter country code where your company is legally located"))
 
-o.default = "RU"
-o.placeholder = "RU"
+o.default = "CN"
+o.placeholder = "CN"
 
 
 o = s:option(Value, "state",
@@ -229,7 +229,7 @@ o = s:option(Value, "state",
 	translate("The state/province where your company is legally located"))
 
 o.default = ""
-o.placeholder = "Saint-Petersburg"
+o.placeholder = "NX"
 
 
 o = s:option(Value, "locality",
@@ -237,7 +237,7 @@ o = s:option(Value, "locality",
 	translate("The city where your company is legally located"))
 
 o.default = ""
-o.placeholder = "Saint-Petersburg"
+o.placeholder = "YC"
 
 
 o = s:option(Value, "organization",
@@ -245,7 +245,7 @@ o = s:option(Value, "organization",
 	translate("Your company's legally registered name"))
 
 o.default = ""
-o.placeholder = "Your Company, Inc."
+o.placeholder = ""
 
 
 o = s:option(Value, "organizational_unit",
@@ -253,7 +253,7 @@ o = s:option(Value, "organizational_unit",
 	translate("The name of your department within the organization"))
 
 o.default = ""
-o.placeholder = "IT department"
+o.placeholder = ""
 
 
 o = s:option(Value, "commonname",
@@ -261,7 +261,7 @@ o = s:option(Value, "commonname",
 	translate("The fully-qualified domain name"))
 
 o.default = luci.sys.hostname()
-o.placeholder = "www.example.com"
+o.placeholder = "Openwrt.lan"
 
 ---------------------------
 
