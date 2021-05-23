@@ -120,7 +120,7 @@ msgid "Self-signed SSL certificate parameters"
 msgstr "自签名SSL证书参数"
 
 msgid "Setup"
-msgstr "设置"
+msgstr "配置"
 
 msgid "Start TTYd server"
 msgstr "开启 TTYD 服务"
@@ -167,7 +167,7 @@ msgid "Username"
 msgstr "用户名"
 
 msgid "Username for basic authentication"
-msgstr "基本身份验证的用户名"
+msgstr "用于基本身份验证的用户名"
 
 msgid ""
 "You can enable SSL in terminal settings page or use HTTP connection instead "
