@@ -23,7 +23,7 @@ msgid "Credentials for basic authentication"
 msgstr "用于基本身份验证的凭据"
 
 msgid "Do not allow clients to write to the TTY"
-msgstr "不允许客户端写入 TTY"
+msgstr "不允许客户端写入 TTYD"
 
 msgid "Do not allow websocket connection from different origin"
 msgstr "不允许不同来源的 websocket 连接"
