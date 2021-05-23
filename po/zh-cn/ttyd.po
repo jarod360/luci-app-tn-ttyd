@@ -143,7 +143,7 @@ msgid "Terminal"
 msgstr "TTYD终端"
 
 msgid "Terminal settings"
-msgstr "终端设定"
+msgstr "终端配置"
 
 msgid "The city where your company is legally located"
 msgstr "公司所在的城市"
