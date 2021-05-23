@@ -9,7 +9,7 @@ local m, s, o
 
 m = Map("ttyd", translate("Terminal settings"))
 
-s = m:section(TypedSection, "server", translate("TTYd server settings"))
+s = m:section(TypedSection, "server")
 s.anonymous = true
 s.addremove = false
 
