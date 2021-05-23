@@ -16,7 +16,7 @@ function index()
 
 	-- menu items
 	entry({"admin", "system", "terminal"}, firstchild(), _("Terminal"), 80)
-	entry({"admin", "system", "terminal", "terminal"}, call("view_terminal"), _("Terminal1"), 10)
+	entry({"admin", "system", "terminal", "terminal"}, call("view_terminal"), _("Terminal"), 10)
 	entry({"admin", "system", "terminal", "configure"}, cbi("ttyd/setup"), _("Setup"), 20)
 
 	-- actions
