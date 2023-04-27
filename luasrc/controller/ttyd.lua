@@ -24,7 +24,7 @@ function index()
 end
 
 function view_terminal()
-	local code = luci.sys.call("/etc/init.d/ttyd status >/dev/null")
+	local code = luci.sys.call("/etc/init.d/ttyd running >/dev/null")
 	local is_running = 0
 
 	if code == 0 then
